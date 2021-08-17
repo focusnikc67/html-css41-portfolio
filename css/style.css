@@ -1,0 +1,54 @@
+:root {
+    --primary-text-color: 757575;
+    --title-text-color: 212121;
+    --accent-color: 2196F3;
+    --primary-background-color: #ffffff;
+}
+.page {
+    background-color: #ffffff;
+     color: var(--primary-text-color); 
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.link {
+    color: var(--primary-text-color);
+}
+.link:hover, .link:focus {
+    color: var(--accent-color);
+}
+.section-title {
+    color: var(--title-text-color);
+}
+.benefits .title {
+    color: var(--title-text-color);
+}
+.hero-title {
+    color: var(--primary-background-color);
+}
+.team .title {
+    color: var(--title-text-color);
+}
+.button {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+}
+.projects .title {
+    color: var(--title-text-color) ;
+}
+
+/*цвет заголовков*/
+212121
+/*цвет текста*/
+757575
+/*цвет кнопок*/
+2196F3
+/*цвет фона*/
+000000

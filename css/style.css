@@ -21,7 +21,8 @@
 .link {
     color: var(--primary-text-color);
 }
-.link:hover, .link:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
 }
 .section-title {
